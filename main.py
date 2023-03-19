@@ -22,7 +22,7 @@ def main():
     result = parallel_processing(n, m, data)
 
     print("Job schedule:")
-    for i, (thread_num, start_time) in result:
+    for i, (thread_num, start_time) in enumerate(result, 1):
         print(thread_num,start_time)
 
 if __name__ == "__main__":
