@@ -1,4 +1,5 @@
 # python3
+# Vladislavs Senevičs, 11.grupa, 221RDB453
 
 def parallel_processing(n, m, data):
     output = []
